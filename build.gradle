@@ -10,8 +10,8 @@ sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
 taboolib {
-    tabooLibVersion = '5.44'
-    loaderVersion = '2.7'
+    tabooLibVersion = '5.48'
+    loaderVersion = '2.10'
     classifier = null
 }
 
