@@ -10,9 +10,10 @@ sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
 taboolib {
-    tabooLibVersion = '5.48'
-    loaderVersion = '2.10'
+    tabooLibVersion = '5.54'
+    loaderVersion = '2.11'
     classifier = null
+    builtin = true
 }
 
 repositories {
@@ -20,14 +21,11 @@ repositories {
 }
 
 dependencies {
-    compile 'ink.ptms.core:v11600:11600:all'
-    compileOnly fileTree(dir: 'libs', includes: ['*.jar'])
+    implementation 'ink.ptms.core:v11600:11600:all'
+    implementation fileTree(dir: 'libs', includes: ['*.jar'])
 }
 
 processResources {
-    from(sourceSets.main.allSource) {
-        exclude 'plugin.yml'
-    }
     from(sourceSets.main.resources.srcDirs) {
         include 'plugin.yml'
         expand(
