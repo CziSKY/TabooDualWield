@@ -1,4 +1,4 @@
-package me.skymc.taboodualwield.event;
+package me.skymc.taboodualwield.api;
 
 import me.skymc.taboodualwield.listener.PlayerListener;
 import org.bukkit.entity.Player;
