@@ -1,22 +1,5 @@
-# TabooLib SDK
+# TabooDualWieid (淘宝双持)
+> 作者: @CziSKY
 
-## Settings
-```groovy
-taboolib {
-    tabooLibVersion = '5.54'
-    loaderVersion = '2.11'
-    classifier = null
-    // relocate package
-    relocate('io.izzel.taboolib', 'ink.ptms.taboolib')
-    // built-in
-    builtin = true
-}
-```
+使你的双持变得更加真实！基于 TabooLib 5.0。
 
-## Release Source Code
-````groovy
-processResources {
-    from(sourceSets.main.allSource) {
-    exclude 'plugin.yml'
-}
-````

@@ -1,0 +1,6 @@
+COOLDOWN-CHATBAR: '&8&l[&2&lTabooDualWield&8&l] &e您的副手正在冷却中. &7(剩余冷却时长 {0} 秒)'
+
+COOLDOWN-ACTION-BAR:
+  ==: ACTION
+  text: '&e您的副手正在冷却中. &7(剩余冷却时长 {0} 秒)'
+  papi: false
